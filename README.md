@@ -16,9 +16,5 @@ SSdtIGdvbm5hIHN0b3A=
 SSdsbCBwdXQgcmFuZG9tIHN0cmluZ3MgZnJvbSBhbiBodWF3ZWkgZTMyNzZzIG52cmFtIGZpbGUK==
 <br>
 bW9kZWxfdmVyaWZ5DQo=
-<br>
-c3RhcnRfZmlsZQ0K
-<br>
-RTMyNzYNCg==
-<br>
-ZW5kX2ZpbGUNCg==
+# Use cases
+For example nvram backups on huawei lte modems are encoded by base64
