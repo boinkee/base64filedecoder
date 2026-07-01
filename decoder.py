@@ -9,8 +9,8 @@ with open(infile, "r", encoding="utf-8") as fyle, \
         encoded = line.strip()
         if not encoded:
             continue
-        linecount +=1
-        print("line", Linecount)
+        LINECOUNT +=1
+        print("line", linecount)
         decoded = base64.b64decode(encoded).decode("utf-8", errors="replace").rstrip("\r\n")
         out.write(decoded + "\n")
 print("wrote", linecount, "lines into", f"{infile}.decoded")
