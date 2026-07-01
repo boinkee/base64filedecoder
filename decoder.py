@@ -1,6 +1,6 @@
 '''Module for the whole program to work (Base64 module)'''
 import base64
-LINECOUNT = 0
+line_count = 0
 infile = input("Enter input file\n")
 with open(infile, "r", encoding="utf-8") as fyle, \
      open(f"{infile}.decoded", "w", encoding="utf-8") as out:
@@ -9,9 +9,9 @@ with open(infile, "r", encoding="utf-8") as fyle, \
         encoded = line.strip()
         if not encoded:
             continue
-        LINECOUNT +=1
-        print("line", LINECOUNT)
+        line_count +=1
+        print("line", line_count)
         decoded = base64.b64decode(encoded).decode("utf-8", errors="replace").rstrip("\r\n")
         out.write(decoded + "\n")
-print("wrote", LINECOUNT, "lines into", f"{infile}.decoded")
+print("wrote", line_count, "lines into", f"{infile}.decoded")
 print("done")
