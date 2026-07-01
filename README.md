@@ -6,7 +6,6 @@ If you have long files that has its every line encoded by base64 you can decode 
 Make sure your file is like this:
 <br>
 <br>
-<br>
 V2h5IGRpZCB5b3UgZGVjb2RlIHRoaXM=
 <br>
 RHVo==
