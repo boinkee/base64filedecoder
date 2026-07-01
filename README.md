@@ -3,8 +3,6 @@ Decode your base64 files (Files that has its every line encoded by base64)
 <br>
 If you have long files that has its every line encoded by base64 you can decode it by this tool. It is purely written in python3 
 # Requirements
-Make sure you have base64 module (duh)
-<br>
 Make sure your file is like this:
 <br>
 <br>
