@@ -1,3 +1,4 @@
+'''Module for the whole program to work (Base64 module)'''
 import base64
 linecount=0
 infile = input("Enter input file\n")
