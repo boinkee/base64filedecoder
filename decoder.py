@@ -1,6 +1,6 @@
 '''Module for the whole program to work (Base64 module)'''
 import base64
-line_count = 0
+line_count = 0 # pylint: disable=invalid-name
 infile = input("Enter input file\n")
 with open(infile, "r", encoding="utf-8") as fyle, \
      open(f"{infile}.decoded", "w", encoding="utf-8") as out:
